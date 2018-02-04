@@ -1,0 +1,127 @@
+.head-banner{
+    background: url(../images/banner.jpg) no-repeat center;
+    min-height: 600px;
+    position: relative;
+    .head-info-widget{
+      position: absolute;
+      width: 100%;
+      left: 50%;
+      bottom: -60px;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+      z-index: 9;
+    }
+}
+.home-intro{
+  margin-top: 100px;
+  p{
+    max-width: 600px;
+    margin: auto;
+    font-size: 1.25em;
+  }
+}
+.home-location{
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.home-quote{
+  background-color: $black;
+  color: $white;
+  padding: 75px 0;
+  .q--title{
+    font-size: 2.5em;
+    line-height: 1;
+    font-family: $heading-font;
+    color: $color-red;
+    text-transform: uppercase;
+  }
+  .q--author{
+    span{
+      display: block;
+      &.name{
+        font-weight: 600;
+        font-size: 1.125em;
+        letter-spacing: .5px;
+      }
+      &.pos{
+        font-size: 1.25em;
+      }
+    }
+  }
+  .q--des{
+    font-size: 1.25em;
+    padding: 20px 0;
+  }
+}
+
+.home-sponsors{
+  margin: 70px 0 100px;
+}
+.home-faq{
+  background-color: #f4f4f4;
+  padding: 50px 0;
+}
+.home-tlf{
+  margin: 50px 0;
+}
+.home-cta{
+  background: $color-red;
+  padding: 100px 0;
+  text-align: center;
+  .container{
+    max-width: 600px;
+    margin: auto;
+  }
+  .title{
+    color: #fff;
+    margin-top: 0;
+  }
+  .btn.buy-tickets{
+    border: 1px solid #fff;
+    border-radius: 0;
+    text-transform: uppercase;
+    background: transparent;
+    color: $white;
+    font-family: $heading-font;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: .5px;
+    padding: 10px 30px;
+    position: relative;
+    transform: translateX(100px);
+    @media screen and (max-width: 768px){
+      transform: scale(.8) translateX(75px);
+    }
+    &:before{
+      content: attr(data-left) " left";
+      display: block;
+      position: absolute;
+      left: -1px;
+      transform: translateX(-100%);
+      background: $black;
+      height: 100%;
+      top: 0;
+      padding: 10px 30px;
+      width: 200px;
+    }
+    &:after{
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      background: url(../images/arrow-right.png) no-repeat center;
+      width: 60px;
+      height: 30px;
+      background-size: 100%;
+      margin-left: 10px;
+    }
+    @media screen and (max-width: 500px){
+      transform: scale(1);
+      &:before{
+        transform: translateX(0) translateY(100%);
+        left: 0;
+        top: 1px;
+        width: 100%;
+      }
+    }
+  }
+}

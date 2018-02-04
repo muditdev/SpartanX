@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+.title {
+  font-size: 3em;
+  font-family: "Montserrat", sans-serif;
+  color: #CF1F2E;
+  font-weight: 700; }
+
+.uc {
+  text-transform: uppercase; }
+
+.head-info-widget {
+  background: #CF1F2E;
+  color: #ffffff;
+  max-width: 600px;
+  margin: 0 auto; }
+  .head-info-widget ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; }
+    .head-info-widget ul li {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px; }
+      .head-info-widget ul li h3 {
+        font-family: "Montserrat", sans-serif;
+        color: inherit;
+        font-size: 2.5em; }
+      .head-info-widget ul li p {
+        margin-bottom: 0; }
+
+.locations-container .location {
+  min-height: 225px;
+  position: relative;
+  margin: 10px 0;
+  overflow: hidden; }
+  .locations-container .location .loc-bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%; }
+  .locations-container .location .loc-hover {
+    opacity: 0;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif; }
+    .locations-container .location .loc-hover .loc-title {
+      color: inherit;
+      font-weight: 700;
+      font-size: 2em;
+      margin-top: 0; }
+    .locations-container .location .loc-hover .loc-date {
+      font-size: 1.25em;
+      font-weight: 600; }
+  .locations-container .location:hover .loc-bg {
+    -webkit-filter: blur(13px) brightness(0.82);
+    filter: blur(13px) brightness(0.82); }
+  .locations-container .location:hover .loc-hover {
+    opacity: 1; }
+
+.sponsors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  @media screen and (max-width: 500px) {
+    .sponsors {
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; } }
+  .sponsors a {
+    max-width: 225px;
+    margin: 5px 15px; }
+    .sponsors a img {
+      width: 100%;
+      height: auto; }
+
+.faq-block h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #CF1F2E;
+  font-weight: 700;
+  font-size: 1.5em; }
+.faq-block p {
+  font-size: 1.25em; }
+
+.head-banner {
+  background: url(../images/banner.jpg) no-repeat center;
+  min-height: 600px;
+  position: relative; }
+  .head-banner .head-info-widget {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    bottom: -60px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 9; }
+
+.home-intro {
+  margin-top: 100px; }
+  .home-intro p {
+    max-width: 600px;
+    margin: auto;
+    font-size: 1.25em; }
+
+.home-location {
+  margin-top: 70px;
+  margin-bottom: 50px; }
+
+.home-quote {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 75px 0; }
+  .home-quote .q--title {
+    font-size: 2.5em;
+    line-height: 1;
+    font-family: "Montserrat", sans-serif;
+    color: #CF1F2E;
+    text-transform: uppercase; }
+  .home-quote .q--author span {
+    display: block; }
+    .home-quote .q--author span.name {
+      font-weight: 600;
+      font-size: 1.125em;
+      letter-spacing: .5px; }
+    .home-quote .q--author span.pos {
+      font-size: 1.25em; }
+  .home-quote .q--des {
+    font-size: 1.25em;
+    padding: 20px 0; }
+
+.home-sponsors {
+  margin: 70px 0 100px; }
+
+.home-faq {
+  background-color: #f4f4f4;
+  padding: 50px 0; }
+
+.home-tlf {
+  margin: 50px 0; }
+
+.home-cta {
+  background: #CF1F2E;
+  padding: 100px 0;
+  text-align: center; }
+  .home-cta .container {
+    max-width: 600px;
+    margin: auto; }
+  .home-cta .title {
+    color: #fff;
+    margin-top: 0; }
+  .home-cta .btn.buy-tickets {
+    border: 1px solid #fff;
+    border-radius: 0;
+    text-transform: uppercase;
+    background: transparent;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: .5px;
+    padding: 10px 30px;
+    position: relative;
+    transform: translateX(100px); }
+    @media screen and (max-width: 768px) {
+      .home-cta .btn.buy-tickets {
+        transform: scale(0.8) translateX(75px); } }
+    .home-cta .btn.buy-tickets:before {
+      content: attr(data-left) " left";
+      display: block;
+      position: absolute;
+      left: -1px;
+      transform: translateX(-100%);
+      background: #000000;
+      height: 100%;
+      top: 0;
+      padding: 10px 30px;
+      width: 200px; }
+    .home-cta .btn.buy-tickets:after {
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      background: url(../images/arrow-right.png) no-repeat center;
+      width: 60px;
+      height: 30px;
+      background-size: 100%;
+      margin-left: 10px; }
+    @media screen and (max-width: 500px) {
+      .home-cta .btn.buy-tickets {
+        transform: scale(1); }
+        .home-cta .btn.buy-tickets:before {
+          transform: translateX(0) translateY(100%);
+          left: 0;
+          top: 1px;
+          width: 100%; } }
+
+/*# sourceMappingURL=main.css.map */
