@@ -15,14 +15,18 @@
 		</div><!-- .container -->
 	</div><!-- #content -->
     <?php get_template_part( 'footer-widget' ); ?>
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="container-fluid p-3 p-md-5">
-            <div class="site-info">
-                &copy; <?php echo date('Y'); ?> <?php echo '<a href="'.home_url().'">'.get_bloginfo('name').'</a>'; ?>
-                <span class="sep"> | </span>
-                <a class="credits" href="https://afterimagedesigns.com/wp-bootstrap-starter/" target="_blank" title="Wordpress Technical Support" alt="Bootstrap Wordpress Theme"><?php echo esc_html__('Bootstrap Wordpress Theme','wp-bootstrap-starter'); ?></a>
-
-            </div><!-- close .site-info -->
+	<footer class="main-footer" role="contentinfo">
+		<div class="container footer">
+			<div class="footer-content">
+				<div class="footer--logo">
+					<a href="javascript:void(0)">
+						<img src="<?php echo get_template_directory_uri() ?>/images/Spartan_white.png" alt="">
+					</a>
+				</div>
+				<div class="footer--copy">
+					<span>Spartan 2018</span>
+				</div>
+			</div>
 		</div>
 	</footer><!-- #colophon -->
 <?php endif; ?>

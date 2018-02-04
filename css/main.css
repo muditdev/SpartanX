@@ -206,4 +206,22 @@
           top: 1px;
           width: 100%; } }
 
+.main-footer {
+  background-color: #000000; }
+  .main-footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px; }
+  .main-footer .footer--logo {
+    max-width: 300px;
+    padding: 10px; }
+    .main-footer .footer--logo img {
+      max-width: 100%;
+      height: auto; }
+  .main-footer .footer--copy {
+    padding: 10px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif; }
+
 /*# sourceMappingURL=main.css.map */

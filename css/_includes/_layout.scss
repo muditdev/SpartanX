@@ -125,3 +125,25 @@
     }
   }
 }
+.main-footer{
+  background-color: $black;
+  .footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  .footer--logo{
+    max-width: 300px;
+    padding: 10px;
+    img{
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .footer--copy{
+    padding: 10px;
+    color: $white;
+    font-family: $heading-font;
+  }
+}

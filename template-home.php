@@ -222,11 +222,11 @@ get_header();
             Buy tickets
           </button>
         </section>
-          <?php
+          <?php /*
               while ( have_posts() ) : the_post();
                   get_template_part( 'template-parts/content', 'notitle' );
               endwhile; // End of the loop.
-          ?>
+        */  ?>
       </main><!-- #main -->
     </section><!-- #primary -->
 
