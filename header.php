@@ -24,7 +24,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wp-bootstrap-starter' ); ?></a>
-    <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' ) && !is_page_template( 'template-home.php' )): ?>
+    <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )  && !is_page_template( 'template-home.php' ) && !is_page_template( 'template-city.php' )): ?>
 	<header id="masthead" class="site-header navbar-static-top" role="banner">
         <div class="container">
             <nav class="navbar navbar-expand-xl navbar-dark p-0">

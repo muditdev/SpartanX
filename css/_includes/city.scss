@@ -1,0 +1,40 @@
+.city-banner{
+  .banner-content{
+    hgroup{
+      background: rgba(0,0,0,.25);
+      padding: 20px;
+    }
+    position: absolute;
+    max-width: 800px;
+    @include centerBoth;
+    h1,h3{
+      color: $white;
+    }
+    .cb-title{
+      text-transform: uppercase;
+      font-size: 3.5em;
+      font-weight: 700;
+      font-family: $heading-font;
+      letter-spacing: 1px;
+      margin-bottom: 0;
+    }
+    .cb-date{
+      font-family: $heading-font;
+      font-size: 1.75em;
+      margin-top: 5px;
+    }
+    .btn.buy-tickets{
+      margin-top: 20px;
+      transform: translateX(100%);
+      background: #fff;
+      color: $black;
+      &:before{
+        color: #fff;
+      }
+      &:after{
+        background: url(../images/arrow-right-dark.png) no-repeat center;
+        background-size: 100%;
+      }
+    }
+  }
+}

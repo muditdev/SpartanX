@@ -95,6 +95,77 @@
 .faq-block p {
   font-size: 1.25em; }
 
+.btn.buy-tickets {
+  border: 1px solid #fff;
+  border-radius: 0;
+  text-transform: uppercase;
+  background: transparent;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: .5px;
+  padding: 10px 30px;
+  position: relative;
+  transform: translateX(100px); }
+  @media screen and (max-width: 768px) {
+    .btn.buy-tickets {
+      transform: scale(0.8) translateX(75px); } }
+  .btn.buy-tickets:before {
+    content: attr(data-left) " left";
+    display: block;
+    position: absolute;
+    left: -1px;
+    transform: translateX(-100%);
+    background: #000000;
+    height: 100%;
+    top: 0;
+    padding: 10px 30px;
+    width: 200px; }
+  .btn.buy-tickets:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../images/arrow-right.png) no-repeat center;
+    width: 60px;
+    height: 30px;
+    background-size: 100%;
+    margin-left: 10px; }
+  @media screen and (max-width: 500px) {
+    .btn.buy-tickets {
+      transform: scale(1); }
+      .btn.buy-tickets:before {
+        transform: translateX(0) translateY(100%);
+        left: 0;
+        top: 1px;
+        width: 100%; } }
+
+.city-counter-widget {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  bottom: -60px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 9;
+  text-align: center; }
+  .city-counter-widget ul {
+    list-style-type: none;
+    padding: 0; }
+    .city-counter-widget ul li {
+      background-color: #CF1F2E;
+      display: inline-block;
+      color: #ffffff;
+      padding: 15px;
+      min-width: 130px;
+      margin: 0 5px; }
+  .city-counter-widget h3 {
+    font-family: "Montserrat", sans-serif;
+    color: inherit;
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: 1px; }
+
 .head-banner {
   background: url(../images/banner.jpg) no-repeat center;
   min-height: 600px;
@@ -161,50 +232,6 @@
   .home-cta .title {
     color: #fff;
     margin-top: 0; }
-  .home-cta .btn.buy-tickets {
-    border: 1px solid #fff;
-    border-radius: 0;
-    text-transform: uppercase;
-    background: transparent;
-    color: #ffffff;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.5em;
-    font-weight: 600;
-    letter-spacing: .5px;
-    padding: 10px 30px;
-    position: relative;
-    transform: translateX(100px); }
-    @media screen and (max-width: 768px) {
-      .home-cta .btn.buy-tickets {
-        transform: scale(0.8) translateX(75px); } }
-    .home-cta .btn.buy-tickets:before {
-      content: attr(data-left) " left";
-      display: block;
-      position: absolute;
-      left: -1px;
-      transform: translateX(-100%);
-      background: #000000;
-      height: 100%;
-      top: 0;
-      padding: 10px 30px;
-      width: 200px; }
-    .home-cta .btn.buy-tickets:after {
-      content: "";
-      display: inline-block;
-      vertical-align: middle;
-      background: url(../images/arrow-right.png) no-repeat center;
-      width: 60px;
-      height: 30px;
-      background-size: 100%;
-      margin-left: 10px; }
-    @media screen and (max-width: 500px) {
-      .home-cta .btn.buy-tickets {
-        transform: scale(1); }
-        .home-cta .btn.buy-tickets:before {
-          transform: translateX(0) translateY(100%);
-          left: 0;
-          top: 1px;
-          width: 100%; } }
 
 .main-footer {
   background-color: #000000; }
@@ -223,5 +250,39 @@
     padding: 10px;
     color: #ffffff;
     font-family: "Montserrat", sans-serif; }
+
+.city-banner .banner-content {
+  position: absolute;
+  max-width: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .city-banner .banner-content hgroup {
+    background: rgba(0, 0, 0, 0.25);
+    padding: 20px; }
+  .city-banner .banner-content h1, .city-banner .banner-content h3 {
+    color: #ffffff; }
+  .city-banner .banner-content .cb-title {
+    text-transform: uppercase;
+    font-size: 3.5em;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 0; }
+  .city-banner .banner-content .cb-date {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.75em;
+    margin-top: 5px; }
+  .city-banner .banner-content .btn.buy-tickets {
+    margin-top: 20px;
+    transform: translateX(100%);
+    background: #fff;
+    color: #000000; }
+    .city-banner .banner-content .btn.buy-tickets:before {
+      color: #fff; }
+    .city-banner .banner-content .btn.buy-tickets:after {
+      background: url(../images/arrow-right-dark.png) no-repeat center;
+      background-size: 100%; }
 
 /*# sourceMappingURL=main.css.map */
