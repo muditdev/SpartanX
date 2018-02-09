@@ -8,3 +8,26 @@
 .uc{
   text-transform: uppercase;
 }
+
+.title-s2{
+  font-family: $heading-font;
+  text-transform: uppercase;
+  color: #eaeaea;
+  font-size: 8em;
+  margin-left: -2.5%;
+  font-weight: 700;
+  &.right{
+    text-align: right;
+    margin-right: -2.5%;
+  }
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: $heading-font;
+}
+.container800{
+  max-width: 800px;
+}
+.oxhide{
+  overflow-x: hidden;
+}

@@ -2,10 +2,45 @@
 
 }
 @media only screen and (max-width: 768px) {
-
+  .btn.buy-tickets:before{
+    transform: translateX(0) translateY(100%);
+    left: 0;
+    top: 1px;
+    width: 100%;
+  }
+  .title-s2{
+        font-size: 3.2em;
+  }
+  .city-banner{
+    min-height: 600px;
+    .banner-content{
+      position: static;
+      transform: none;
+      text-align: center;
+      hgroup{
+        font-size: 10px;
+      }
+      .btn.buy-tickets{
+        transform: none;
+      }
+  }
+  }
+  .city-counter-widget ul li{
+    min-width: 80px;font-size: 12px;
+    padding: 7px;
+  }
+  .city-faq .faqRight{
+    margin-top: 0;
+  }
+  .city-quote{
+    padding: 15px 0;
+  }
+  .city-faq{
+    padding: 15px 0;
+  }
 }
 @media only screen and (max-width: 500px) {
-  
+
 }
 @media only screen and (min-width: 992px) {
 

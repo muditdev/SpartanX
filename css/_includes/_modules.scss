@@ -177,6 +177,9 @@
       padding: 15px;
       min-width: 130px;
       margin: 0 5px;
+      p{
+        margin-bottom: 0;
+      }
     }
   }
   h3{
@@ -185,5 +188,94 @@
     font-size: 2.5em;
     font-weight: 700;
     letter-spacing: 1px;
+  }
+}
+
+.sp-pricing{
+  margin-top: 30px;
+  .price-block{
+    &.red{
+      background: $color-red;
+    }
+    &.black{
+      background: $black;
+    }
+    &.gray{
+      background: #5d5d5d;
+    }
+    color: $white;
+    overflow: hidden;
+    padding: 30px;
+    font-family: $heading-font;
+    .pb-title{
+      color: $white;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 1.5em;
+      line-height: 1.1;
+      letter-spacing: .5px;
+    }
+    .pb-price{
+      color: $white;
+      font-size: 1.2em;
+      letter-spacing: 1px;
+      font-weight: 700;
+      margin: 20px 0;
+    }
+    p{
+      font-size: 16px;
+    }
+  }
+}
+.ag-times{
+  .ag-time{
+    padding: 15px;
+    h2{
+      color: $color-red;
+      font-weight: 700;
+      font-size: 2em;
+    }
+    p{
+      font-size: 1.125em
+    }
+  }
+}
+// speaker
+.speaker{
+  position: relative;
+  margin-top: 15px;
+  .speaker-img{
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+  .speaker-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: $color-red;
+    opacity: 0;
+    transition: all .5s ease;
+    div{
+      @include centerBoth ;
+    }
+    h2{
+      color: $white;
+      margin-bottom: 0;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    h3{
+      margin-top: 10px;
+      color: $white;
+    }
+  }
+  &:hover{
+    .speaker-hover{
+      opacity: 1;
+    }
   }
 }

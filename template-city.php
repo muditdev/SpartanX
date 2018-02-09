@@ -38,73 +38,168 @@ get_header();
           </div>
 
         </div>
-
-
-
       </div>
-      <main id="main" class="site-main" role="main">
-        <section class="home-intro text-center">
+      <main id="main" class="site-main oxhide" role="main">
+        <section class="city-intro">
+          <h1 class="title-s2">
+            SPARTAN X
+          </h1>
           <div class="container">
-            <h2 class="title">SPARTAN X <br> LEADERSHIP TALKS</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <ul>
+              <li>adipisicing elit, sed do eiusmod tempor</li>
+              <li>Lorem ipsum dolor sit amet, consectetur</li>
+              <li>Lorem ipsum dolor sit amet, consectetur</li>
+              <li>Lorem ipsum dolor sit amet, consectetur</li>
+            </ul>
+            <div class="sp-pricing">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="price-block red">
+                    <h3 class="pb-title">Early Bird</h3>
+                    <h4 class="pb-price">$800</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="price-block black">
+                    <h3 class="pb-title">Early Bird</h3>
+                    <h4 class="pb-price">$800</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="price-block gray">
+                    <h3 class="pb-title">Early Bird</h3>
+                    <h4 class="pb-price">$800</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
-        <section class="home-location">
+        <section class="city-agenda">
+          <h1 class="title-s2 right">
+            Agenda
+          </h1>
           <div class="container">
-            <h2 class="title text-center">2018 LOCATIONS</h2>
-            <div class="locations-container">
+            <div class="ag-times">
               <div class="row">
-                <div class="col-md-4 col-sm-6">
-                  <div class="location">
-                    <div class="loc-bg" style="background-image: url(<?php echo get_template_directory_uri() ?>/images/location.jpg)"></div>
-                    <div class="loc-hover">
-                      <h3 class="loc-title">NEW YORK</h3>
-                      <span class="loc-date">February 1, 2018</span>
+                <div class="col-md-4">
+                  <div class="ag-time">
+                    <h2>2:00 <br> PM </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d adipisicing elit</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="ag-time">
+                    <h2>2:00 <br> PM </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d adipisicing elit</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="ag-time">
+                    <h2>2:00 <br> PM </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d adipisicing elit</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="city-speakers">
+          <h1 class="title-s2">
+            speakers
+          </h1>
+          <div class="container container800">
+            <div class="row">
+              <div class="col-md-4 col-sm-6">
+                <div class="speaker">
+                  <div class="speaker-img">
+                    <img src="<?php echo get_template_directory_uri() ?>/images/speaker.jpg" alt="">
+                  </div>
+                  <div class="speaker-hover">
+                    <div>
+                      <h2>
+                        Speaker <br> name
+                      </h2>
+                      <h3>Title</h3>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
-                  <div class="location">
-                    <div class="loc-bg" style="background-image: url(<?php echo get_template_directory_uri() ?>/images/location.jpg)"></div>
-                    <div class="loc-hover">
-                      <h3 class="loc-title">NEW YORK</h3>
-                      <span class="loc-date">February 1, 2018</span>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="speaker">
+                  <div class="speaker-img">
+                    <img src="<?php echo get_template_directory_uri() ?>/images/speaker.jpg" alt="">
+                  </div>
+                  <div class="speaker-hover">
+                    <div>
+                      <h2>
+                        Speaker <br> name
+                      </h2>
+                      <h3>Title</h3>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
-                  <div class="location">
-                    <div class="loc-bg" style="background-image: url(<?php echo get_template_directory_uri() ?>/images/location.jpg)"></div>
-                    <div class="loc-hover">
-                      <h3 class="loc-title">NEW YORK</h3>
-                      <span class="loc-date">February 1, 2018</span>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="speaker">
+                  <div class="speaker-img">
+                    <img src="<?php echo get_template_directory_uri() ?>/images/speaker.jpg" alt="">
+                  </div>
+                  <div class="speaker-hover">
+                    <div>
+                      <h2>
+                        Speaker <br> name
+                      </h2>
+                      <h3>Title</h3>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
-                  <div class="location">
-                    <div class="loc-bg" style="background-image: url(<?php echo get_template_directory_uri() ?>/images/location.jpg)"></div>
-                    <div class="loc-hover">
-                      <h3 class="loc-title">NEW YORK</h3>
-                      <span class="loc-date">February 1, 2018</span>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="speaker">
+                  <div class="speaker-img">
+                    <img src="<?php echo get_template_directory_uri() ?>/images/speaker.jpg" alt="">
+                  </div>
+                  <div class="speaker-hover">
+                    <div>
+                      <h2>
+                        Speaker <br> name
+                      </h2>
+                      <h3>Title</h3>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
-                  <div class="location">
-                    <div class="loc-bg" style="background-image: url(<?php echo get_template_directory_uri() ?>/images/location.jpg)"></div>
-                    <div class="loc-hover">
-                      <h3 class="loc-title">NEW YORK</h3>
-                      <span class="loc-date">February 1, 2018</span>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="speaker">
+                  <div class="speaker-img">
+                    <img src="<?php echo get_template_directory_uri() ?>/images/speaker.jpg" alt="">
+                  </div>
+                  <div class="speaker-hover">
+                    <div>
+                      <h2>
+                        Speaker <br> name
+                      </h2>
+                      <h3>Title</h3>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
-                  <div class="location">
-                    <div class="loc-bg" style="background-image: url(<?php echo get_template_directory_uri() ?>/images/location.jpg)"></div>
-                    <div class="loc-hover">
-                      <h3 class="loc-title">NEW YORK</h3>
-                      <span class="loc-date">February 1, 2018</span>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="speaker">
+                  <div class="speaker-img">
+                    <img src="<?php echo get_template_directory_uri() ?>/images/speaker.jpg" alt="">
+                  </div>
+                  <div class="speaker-hover">
+                    <div>
+                      <h2>
+                        Speaker <br> name
+                      </h2>
+                      <h3>Title</h3>
                     </div>
                   </div>
                 </div>
@@ -112,7 +207,7 @@ get_header();
             </div>
           </div>
         </section>
-        <section class="home-quote">
+        <section class="home-quote city-quote">
           <div class="container">
             <div class="row">
               <div class="col-md-6">
@@ -132,26 +227,9 @@ get_header();
             </div>
           </div>
         </section>
-        <section class="home-sponsors">
+        <section class="home-faq city-faq">
+          <h2 class="title-s2">FAQ</h2>
           <div class="container">
-            <h2 class="title text-center">SPONSORS</h2>
-            <div class="sponsors">
-              <a href="javascript:void(0)">
-                <img src="<?php echo get_template_directory_uri() ?>/images/sponsor1.jpg" alt="">
-              </a>
-              <a href="javascript:void(0)">
-                <img src="<?php echo get_template_directory_uri() ?>/images/sponsor2.jpg" alt="">
-              </a>
-              <a href="javascript:void(0)">
-                <img src="<?php echo get_template_directory_uri() ?>/images/sponsor3.jpg" alt="">
-              </a>
-            </div>
-          </div>
-
-        </section>
-        <section class="home-faq">
-          <div class="container">
-            <h2 class="title text-center">FAQ</h2>
             <div class="row">
               <div class="col-md-6">
                 <div class="faq-block">
@@ -179,7 +257,7 @@ get_header();
                   </p>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 faqRight">
                 <div class="faq-block">
                   <h4 class="f--ques">
                     What is Spartan X ?
@@ -201,39 +279,42 @@ get_header();
             </div>
           </div>
         </section>
-        <section class="home-tlf">
-          <h2 class="title text-center uc"> Training <br> leaders from : </h2>
-          <div class="sponsors">
-            <a href="javascript:void(0)">
-              <img src="<?php echo get_template_directory_uri() ?>/images/sponsor1.jpg" alt="">
-            </a>
-            <a href="javascript:void(0)">
-              <img src="<?php echo get_template_directory_uri() ?>/images/sponsor2.jpg" alt="">
-            </a>
-            <a href="javascript:void(0)">
-              <img src="<?php echo get_template_directory_uri() ?>/images/sponsor3.jpg" alt="">
-            </a>
-          </div>
-          <div class="sponsors">
-            <a href="javascript:void(0)">
-              <img src="<?php echo get_template_directory_uri() ?>/images/sponsor4.jpg" alt="">
-            </a>
-            <a href="javascript:void(0)">
-              <img src="<?php echo get_template_directory_uri() ?>/images/sponsor5.jpg" alt="">
-            </a>
-            <a href="javascript:void(0)">
-              <img src="<?php echo get_template_directory_uri() ?>/images/sponsor6.jpg" alt="">
-            </a>
+        <section class="home-tlf city-tlf">
+          <h1 class="title-s2 right">Leaders</h1>
+          <div class="container">
+            <h2 class="title uc"> Training <br> leaders from : </h2>
+            <div class="sponsors">
+              <a href="javascript:void(0)">
+                <img src="<?php echo get_template_directory_uri() ?>/images/sponsor1.jpg" alt="">
+              </a>
+              <a href="javascript:void(0)">
+                <img src="<?php echo get_template_directory_uri() ?>/images/sponsor2.jpg" alt="">
+              </a>
+              <a href="javascript:void(0)">
+                <img src="<?php echo get_template_directory_uri() ?>/images/sponsor3.jpg" alt="">
+              </a>
+            </div>
+            <div class="sponsors">
+              <a href="javascript:void(0)">
+                <img src="<?php echo get_template_directory_uri() ?>/images/sponsor4.jpg" alt="">
+              </a>
+              <a href="javascript:void(0)">
+                <img src="<?php echo get_template_directory_uri() ?>/images/sponsor5.jpg" alt="">
+              </a>
+              <a href="javascript:void(0)">
+                <img src="<?php echo get_template_directory_uri() ?>/images/sponsor6.jpg" alt="">
+              </a>
+            </div>
           </div>
         </section>
-        <section class="home-cta">
+        <section class="home-cta city-ticket">
           <div class="container">
-            <h2 class="title uc text-center">
-              10 days left to reserve your spot
+            <h2 class="title uc">
+              Secure Your <br> seat now
             </h2>
           </div>
           <button type="button" class="btn buy-tickets" data-left="50">
-            Buy tickets
+            RSVP TODAY
           </button>
         </section>
           <?php /*

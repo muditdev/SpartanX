@@ -1,4 +1,7 @@
 .city-banner{
+  background: url(../images/banner_city.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 800px;
   .banner-content{
     hgroup{
       background: rgba(0,0,0,.25);
@@ -35,6 +38,62 @@
         background: url(../images/arrow-right-dark.png) no-repeat center;
         background-size: 100%;
       }
+    }
+  }
+}
+
+.city-intro{
+  margin-top: 100px;
+  .container{
+    max-width: 800px;
+  }
+  font-size: 1.25em;
+  line-height: 1.5;
+}
+
+.city-agenda{
+  margin-top: 50px;
+  .container{
+    max-width: 800px;
+  }
+}
+
+.city-speakers{
+  margin-bottom: 50px;
+}
+.city-quote{
+  background-color: $white;
+  color: $black ;
+  .q--title{
+    font-weight: 700;
+  }
+}
+.city-faq{
+  background-color: $white;
+  .faqRight{
+    margin-top: -80px;
+  }
+}
+.city-ticket{
+  background: $white;
+  .container{
+    max-width: 1140px;
+  }
+  .title{
+    color: $color-red;
+    text-align: left;
+  }
+  .btn.buy-tickets{
+    color: $black;
+    font-weight: 700;
+    border: 1px solid $black;
+    &:before{
+      background: $color-red;
+      color: $white;
+    }
+    &:after{
+      background: url(../images/arrow-right-dark.png) no-repeat center;
+      background-size: contain;
     }
   }
 }
