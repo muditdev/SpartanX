@@ -279,3 +279,22 @@
     }
   }
 }
+
+
+// buttons
+.btn{
+  border-radius: 0;
+}
+.btn-dark{
+  font-weight: 600;
+  color: $white;
+  background: $black;
+}
+.btn-light{
+  font-weight: 600;
+  color: $black;
+  background: $white;
+}
+.btn-block{
+  display: block;
+}

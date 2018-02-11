@@ -34,7 +34,42 @@
   }
 }
 
+// f-intro
+section.f-intro{}
+section.f-mission{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+section.f-eventloc{
+  margin: 50px 0;
+  .location{
+    .loc-img{
+      img{
+        width: 240px;
+        height: 295px;
+        object-fit: cover;
+        margin: auto;
+        display: block;
+      }
+    }
+    .loc-hover{
+      h2 {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+section.f-benifits{
+  padding: 50px;
+}
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // modules
+.subheading{
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 1.5;
+}
 .select-city-seat{
   display: flex;
   align-items: center;

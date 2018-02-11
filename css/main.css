@@ -28,6 +28,15 @@ h1, h2, h3, h4, h5, h6 {
 .oxhide {
   overflow-x: hidden; }
 
+.mt30 {
+  margin-top: 30px; }
+
+.mt50 {
+  margin-top: 50px; }
+
+.secbg-gray {
+  background-color: #F0F0F0; }
+
 .head-info-widget {
   background: #CF1F2E;
   color: #ffffff;
@@ -257,6 +266,22 @@ h1, h2, h3, h4, h5, h6 {
   .speaker:hover .speaker-hover {
     opacity: 1; }
 
+.btn {
+  border-radius: 0; }
+
+.btn-dark {
+  font-weight: 600;
+  color: #ffffff;
+  background: #000000; }
+
+.btn-light {
+  font-weight: 600;
+  color: #000000;
+  background: #ffffff; }
+
+.btn-block {
+  display: block; }
+
 .head-banner {
   background: url(../images/banner.jpg) no-repeat center;
   min-height: 600px;
@@ -455,6 +480,29 @@ h1, h2, h3, h4, h5, h6 {
       max-width: 500px;
       font-size: 3.85em;
       margin-top: 0; }
+
+section.f-mission {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+section.f-eventloc {
+  margin: 50px 0; }
+  section.f-eventloc .location .loc-img img {
+    width: 240px;
+    height: 295px;
+    object-fit: cover;
+    margin: auto;
+    display: block; }
+  section.f-eventloc .location .loc-hover h2 {
+    margin-bottom: 10px; }
+
+section.f-benifits {
+  padding: 50px; }
+
+.subheading {
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 1.5; }
 
 .select-city-seat {
   display: flex;
