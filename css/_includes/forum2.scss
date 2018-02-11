@@ -1,0 +1,95 @@
+.forum2-header{
+  background: url(../images/fbg2.jpg) no-repeat center;
+  min-height: 600px;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .f_2-content{
+    background: rgba($color-red, .85);
+    max-width: 900px;
+    padding: 30px;
+    .bannercont-right{
+      border-left: 2px solid rgba(#000, .37);
+      padding-left: 30px;
+    }
+    h2{
+      font-size: 2.25em;
+      font-weight: 700;
+    }
+    h1{
+      color: $white;
+      margin: 10px 0 0;
+    }
+    h4{
+      color: $white;
+      margin: 10px 0;
+      font-weight: 400;
+      font-size: 1.35em;
+    }
+    .btn{
+      font-size: 1.25em;
+      padding: 10px 30px;
+      font-family: $heading-font;
+      margin-top: 15px;
+    }
+  }
+}
+section.f_2-speakers{
+  margin: 30px 0 50px;
+  .speaker{
+    .speaker-img{
+      max-width: 200px;
+    }
+    .speaker-intro{
+      margin-top: 10px;
+      span{
+        display: block;
+      }
+      .speaker-name{
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+section.f-agenda{
+  padding: 50px 0;
+  .agenda-wrap{
+    max-width: 800px;
+    margin: 30px auto;
+  }
+  .agenda{
+    text-align: center;
+  }
+}
+.f_2-bg-sap{
+  background: url(../images/bg-sap.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 350px;
+}
+section.f_2-pricing{
+  margin: 30px 0 50px;
+  .price-block{
+    color: #888888;
+    .pb-title, .pb-price{
+      color: inherit;
+    }
+    .pb-title{
+      font-size: 1.85em;
+    }
+    .pb-price{
+      font-size: 1.4em;
+    }
+    background: $bg-gray;
+    &.active{
+      background: $color-red;
+      color: $white;
+    }
+    &:hover{
+      background: $color-red;
+      color: $white;
+    }
+  }
+}

@@ -513,7 +513,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     bottom: 0;
     width: 100%;
-    max-width: 750px;
+    max-width: 850px;
     background: #CF1F2E url(../images/xBanner.png) no-repeat bottom right;
     background-size: 120%;
     z-index: 0; }
@@ -675,7 +675,84 @@ section.f-tlf {
       background-size: 50px;
       margin-top: -5px; }
 
+.forum2-header {
+  background: url(../images/fbg2.jpg) no-repeat center;
+  min-height: 600px;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .forum2-header .f_2-content {
+    background: rgba(207, 31, 46, 0.85);
+    max-width: 900px;
+    padding: 30px; }
+    .forum2-header .f_2-content .bannercont-right {
+      border-left: 2px solid rgba(0, 0, 0, 0.37);
+      padding-left: 30px; }
+    .forum2-header .f_2-content h2 {
+      font-size: 2.25em;
+      font-weight: 700; }
+    .forum2-header .f_2-content h1 {
+      color: #ffffff;
+      margin: 10px 0 0; }
+    .forum2-header .f_2-content h4 {
+      color: #ffffff;
+      margin: 10px 0;
+      font-weight: 400;
+      font-size: 1.35em; }
+    .forum2-header .f_2-content .btn {
+      font-size: 1.25em;
+      padding: 10px 30px;
+      font-family: "Montserrat", sans-serif;
+      margin-top: 15px; }
+
+section.f_2-speakers {
+  margin: 30px 0 50px; }
+  section.f_2-speakers .speaker .speaker-img {
+    max-width: 200px; }
+  section.f_2-speakers .speaker .speaker-intro {
+    margin-top: 10px; }
+    section.f_2-speakers .speaker .speaker-intro span {
+      display: block; }
+    section.f_2-speakers .speaker .speaker-intro .speaker-name {
+      font-weight: 600; }
+
+section.f-agenda {
+  padding: 50px 0; }
+  section.f-agenda .agenda-wrap {
+    max-width: 800px;
+    margin: 30px auto; }
+  section.f-agenda .agenda {
+    text-align: center; }
+
+.f_2-bg-sap {
+  background: url(../images/bg-sap.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 350px; }
+
+section.f_2-pricing {
+  margin: 30px 0 50px; }
+  section.f_2-pricing .price-block {
+    color: #888888;
+    background: #F0F0F0; }
+    section.f_2-pricing .price-block .pb-title, section.f_2-pricing .price-block .pb-price {
+      color: inherit; }
+    section.f_2-pricing .price-block .pb-title {
+      font-size: 1.85em; }
+    section.f_2-pricing .price-block .pb-price {
+      font-size: 1.4em; }
+    section.f_2-pricing .price-block.active {
+      background: #CF1F2E;
+      color: #ffffff; }
+    section.f_2-pricing .price-block:hover {
+      background: #CF1F2E;
+      color: #ffffff; }
+
 @media only screen and (max-width: 768px) {
+  .title {
+    font-size: 1.75em; }
+
   .btn.buy-tickets:before {
     transform: translateX(0) translateY(100%);
     left: 0;
@@ -708,6 +785,60 @@ section.f-tlf {
     padding: 15px 0; }
 
   .city-faq {
-    padding: 15px 0; } }
+    padding: 15px 0; }
+
+  .forum-header {
+    min-height: 450px; }
+
+  .f-content .fh-cont {
+    text-align: center;
+    max-width: 500px;
+    margin: auto; }
+    .f-content .fh-cont .title {
+      font-size: 2.5em; }
+    .f-content .fh-cont .title {
+      max-width: 100%; }
+    .f-content .fh-cont .select-city-seat {
+      margin: 10px;
+      display: block; }
+      .f-content .fh-cont .select-city-seat .selectcity select {
+        width: 100%;
+        min-width: inherit; }
+    .f-content .fh-cont .btn-reqseat {
+      padding: 10px 0; }
+
+  section.f-testimonials {
+    font-size: 12px; }
+    section.f-testimonials .carousel-inner {
+      padding-left: 50px;
+      padding-right: 50px; }
+    section.f-testimonials .ico-left {
+      width: 25px;
+      background-size: 25px; }
+    section.f-testimonials .ico-right {
+      width: 25px;
+      background-size: 25px; }
+    section.f-testimonials .q--author figure {
+      width: 100px;
+      height: 100px; }
+
+  .f_2-speakers .speaker {
+    text-align: center; }
+    .f_2-speakers .speaker .speaker-img {
+      margin: auto; }
+
+  section.f_2-pricing .price-block {
+    margin: 10px 0; }
+
+  section.f-tlf .sponsors a {
+    max-width: 65px; }
+
+  .citySelector {
+    display: block;
+    margin: 15px; }
+    .citySelector .inputCity input {
+      width: 100%; }
+    .citySelector .btn {
+      width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -2,6 +2,9 @@
 
 }
 @media only screen and (max-width: 768px) {
+  .title{
+    font-size: 1.75em;
+  }
   .btn.buy-tickets:before{
     transform: translateX(0) translateY(100%);
     left: 0;
@@ -37,6 +40,79 @@
   }
   .city-faq{
     padding: 15px 0;
+  }
+
+  // page forum 1
+  .forum-header{
+    min-height: 450px;
+  }
+  .f-content .fh-cont{
+    .title{
+      font-size: 2.5em;
+    }
+      text-align: center;
+      max-width: 500px;
+      margin: auto;
+      .title{
+        max-width: 100%;
+      }
+    .select-city-seat{
+      margin: 10px;
+      display: block;
+      .selectcity select{
+        width: 100%;
+        min-width: inherit;
+      }
+    }
+    .btn-reqseat{
+        padding: 10px 0;
+    }
+  }
+  section.f-testimonials{
+    font-size: 12px;
+    .carousel-inner{
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .ico-left{
+        width: 25px;
+        background-size: 25px;
+    }
+    .ico-right{
+        width: 25px;
+        background-size: 25px;
+    }
+    .q--author figure{
+      width: 100px;
+      height: 100px;
+    }
+  }
+  .f_2-speakers{
+    .speaker{
+      .speaker-img{
+        margin: auto;
+      }
+      text-align: center;
+    }
+  }
+  section.f_2-pricing .price-block{
+    margin: 10px 0;
+  }
+  section.f-tlf .sponsors a{
+    max-width: 65px;
+  }
+  // common
+  .citySelector{
+      display: block;
+      margin: 15px;
+      .inputCity {
+        input{
+          width: 100%;
+        }
+      }
+      .btn {
+        width: 100%;
+      }
   }
 }
 @media only screen and (max-width: 500px) {
