@@ -212,8 +212,145 @@ get_header();
         <h3 class="subheading text-center">
           When you attend a Spartan X <br>   Leadership Talk, you will:
         </h3>
+        <div class="benifits-wrap">
+          <div class="benifit">
+            <i class="ico-chat"></i>
+            <h3>Sharpen Your Skills</h3>
+            <p>Hear from 6 experts on one of our 10 Spartan Principles.</p>
+          </div>
+          <div class="benifit">
+            <i class="ico-earth"></i>
+            <h3>Sharpen Your Skills</h3>
+            <p>Sharpen your hard and soft skills as leaders, spouses, parents, and citizens of the human race.</p>
+          </div>
+          <div class="benifit">
+            <i class="ico-idea"></i>
+            <h3>Network & Connect</h3>
+            <p>Network and connect with the brightest minds in business.</p>
+          </div>
+          <div class="benifit">
+            <i class="ico-medal"></i>
+            <h3>Sharpen Your Skills</h3>
+            <p>Gain real experience with each skill by participating in Spartan obstacles.</p>
+          </div>
+          <div class="benifit">
+            <i class="ico-eye"></i>
+            <h3>Sharpen Your Skills</h3>
+            <p>Discover how to handle unforeseen obstacles, solve problems with wisdom and urgency, and maintain focus amid chaos and drama.</p>
+          </div>
+        </div>
        </div>
     </section>
+    <section class="home-quote f-testimonials">
+      <div class="slider">
+        <div id="testimonalSlider" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <!-- <ul class="carousel-indicators">
+          <li data-target="#testimonalSlider" data-slide-to="0" class="active"></li>
+          <li data-target="#testimonalSlider" data-slide-to="1"></li>
+          <li data-target="#testimonalSlider" data-slide-to="2"></li>
+        </ul> -->
+        <!-- The slideshow -->
+        <div class="carousel-inner container">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="q--author">
+                  <figure>
+                    <img src="<?php echo get_template_directory_uri() ?>/images/author.jpg" alt="">
+                  </figure>
+                  <span class="name">John Smith</span>
+                  <span class="pos">CEO, Company Name</span>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="q--title">
+                  "Life Changing <br> Event"
+                </h3>
+                <p class="q--des">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="q--author">
+                  <figure>
+                    <img src="<?php echo get_template_directory_uri() ?>/images/author.jpg" alt="">
+                  </figure>
+                  <span class="name">John Smith</span>
+                  <span class="pos">CEO, Company Name</span>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="q--title">
+                  "Life Changing <br> Event"
+                </h3>
+                <p class="q--des">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="q--author">
+                  <figure>
+                    <img src="<?php echo get_template_directory_uri() ?>/images/author.jpg" alt="">
+                  </figure>
+                  <span class="name">John Smith</span>
+                  <span class="pos">CEO, Company Name</span>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="q--title">
+                  "Life Changing <br> Event"
+                </h3>
+                <p class="q--des">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#testimonalSlider" data-slide="prev">
+          <!-- <span class="carousel-control-prev-icon"></span> -->
+          <i class="ico-left"></i>
+        </a>
+        <a class="carousel-control-next" href="#testimonalSlider" data-slide="next">
+          <!-- <span class="carousel-control-next-icon"></span> -->
+          <i class="ico-right"></i>
+        </a>
+        </div>
+      </div>
+<!--
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="q--author">
+              <figure>
+                <img src="<?php echo get_template_directory_uri() ?>/images/author.jpg" alt="">
+              </figure>
+              <span class="name">John Smith</span>
+              <span class="pos">CEO, Company Name</span>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <h3 class="q--title">
+              "Life Changing <br> Event"
+            </h3>
+            <p class="q--des">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+      </div> -->
+    </section>
+
       <?php /*
           while ( have_posts() ) : the_post();
               get_template_part( 'template-parts/content', 'notitle' );

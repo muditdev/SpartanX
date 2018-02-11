@@ -1,4 +1,50 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+[class^="ico-"] {
+  display: inline-block;
+  vertical-align: middle; }
+
+.ico-chat {
+  width: 70px;
+  height: 70px;
+  background: url(../images/chat.png) no-repeat center;
+  background-size: 70px; }
+
+.ico-earth {
+  width: 70px;
+  height: 70px;
+  background: url(../images/planet-earth.png) no-repeat center;
+  background-size: 70px; }
+
+.ico-eye {
+  width: 70px;
+  height: 70px;
+  background: url(../images/eye.png) no-repeat center;
+  background-size: 70px; }
+
+.ico-idea {
+  width: 70px;
+  height: 70px;
+  background: url(../images/idea.png) no-repeat center;
+  background-size: 70px; }
+
+.ico-medal {
+  width: 70px;
+  height: 70px;
+  background: url(../images/medal.png) no-repeat center;
+  background-size: 70px; }
+
+.ico-left {
+  width: 70px;
+  height: 70px;
+  background: url(../images/arrow-left.png) no-repeat center;
+  background-size: 70px; }
+
+.ico-right {
+  width: 70px;
+  height: 70px;
+  background: url(../images/arrow-right.png) no-repeat center;
+  background-size: 70px; }
+
 .title {
   font-size: 3em;
   font-family: "Montserrat", sans-serif;
@@ -498,6 +544,33 @@ section.f-eventloc {
 
 section.f-benifits {
   padding: 50px; }
+  section.f-benifits .benifits-wrap {
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center; }
+    section.f-benifits .benifits-wrap .benifit {
+      flex-basis: 300px;
+      text-align: center;
+      margin: 10px;
+      padding: 15px; }
+      section.f-benifits .benifits-wrap .benifit h3 {
+        font-weight: 700;
+        color: #CF1F2E;
+        margin-bottom: 5px; }
+
+section.f-testimonials {
+  background-color: #CF1F2E; }
+  section.f-testimonials .carousel-inner {
+    padding-left: 100px;
+    padding-right: 100px; }
+  section.f-testimonials .q--title {
+    color: #ffffff; }
+  section.f-testimonials .q--author figure {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    overflow: hidden; }
 
 .subheading {
   font-weight: 700;

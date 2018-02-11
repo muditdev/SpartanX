@@ -62,6 +62,41 @@ section.f-eventloc{
 
 section.f-benifits{
   padding: 50px;
+  .benifits-wrap{
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    .benifit{
+      flex-basis: 300px;
+      text-align: center;
+      margin: 10px;
+      padding: 15px;
+      h3{
+        font-weight: 700;
+        color: $color-red;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+section.f-testimonials{
+  background-color: $color-red;
+  .carousel-inner{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .q--title{
+    color: $white;
+  }
+  .q--author{
+    figure{
+      width: 175px;
+      height: 175px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+  }
 }
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // modules

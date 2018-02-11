@@ -69,4 +69,6 @@ jQuery( function ( $ ) {
         }, 1000, 'swing');
     });
 
+    // activating curosole
+
 });
