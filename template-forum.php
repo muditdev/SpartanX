@@ -148,31 +148,33 @@ get_header();
             </div>
           </div>
     </section>
-    <section class="home-tlf city-tlf">
+    <section class="home-tlf city-tlf f-tlf">
       <div class="container">
         <h2 class="title uc text-center"> Training leaders from : </h2>
         <div class="sponsors">
           <a href="javascript:void(0)">
-            <img src="<?php echo get_template_directory_uri() ?>/images/sponsor1.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri() ?>/images/applelogo.png" alt="">
           </a>
           <a href="javascript:void(0)">
-            <img src="<?php echo get_template_directory_uri() ?>/images/sponsor2.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri() ?>/images/citylogo.png" alt="">
           </a>
           <a href="javascript:void(0)">
-            <img src="<?php echo get_template_directory_uri() ?>/images/sponsor3.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri() ?>/images/comcast.png" alt="">
           </a>
         </div>
         <div class="sponsors">
           <a href="javascript:void(0)">
-            <img src="<?php echo get_template_directory_uri() ?>/images/sponsor4.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri() ?>/images/comcast.png" alt="">
           </a>
           <a href="javascript:void(0)">
-            <img src="<?php echo get_template_directory_uri() ?>/images/sponsor5.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri() ?>/images/applelogo.png" alt="">
           </a>
           <a href="javascript:void(0)">
-            <img src="<?php echo get_template_directory_uri() ?>/images/sponsor6.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri() ?>/images/citylogo.png" alt="">
           </a>
+
         </div>
+
       </div>
     </section>
     <section class="f-wsa">
@@ -327,30 +329,84 @@ get_header();
         </a>
         </div>
       </div>
-<!--
+    </section>
+    <section class="home-sponsors">
       <div class="container">
+        <h2 class="title text-center">SPONSORS</h2>
+        <div class="sponsors">
+          <a href="javascript:void(0)">
+            <img src="<?php echo get_template_directory_uri() ?>/images/sponsor1.jpg" alt="">
+          </a>
+          <a href="javascript:void(0)">
+            <img src="<?php echo get_template_directory_uri() ?>/images/sponsor2.jpg" alt="">
+          </a>
+          <a href="javascript:void(0)">
+            <img src="<?php echo get_template_directory_uri() ?>/images/sponsor3.jpg" alt="">
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="f-selectcity-cta text-center">
+      <h2 class="title">SELECT YOUR CITY</h2>
+      <div class="citySelector">
+        <div class="inputCity">
+          <input type="text" value="Philadelphia, PA" >
+        </div>
+        <a href="javascript:void(0)" class="btn btn-dark">GO <i class="ico-right"></i></a>
+      </div>
+    </section>
+    <section class="home-faq">
+      <div class="container">
+        <h2 class="title text-center">Frequently Asked Questions</h2>
         <div class="row">
-          <div class="col-md-4">
-            <div class="q--author">
-              <figure>
-                <img src="<?php echo get_template_directory_uri() ?>/images/author.jpg" alt="">
-              </figure>
-              <span class="name">John Smith</span>
-              <span class="pos">CEO, Company Name</span>
+          <div class="col-md-6">
+            <div class="faq-block">
+              <h4 class="f--ques">
+              Question 1
+              </h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+              </p>
+            </div>
+            <div class="faq-block">
+              <h4 class="f--ques">
+                Question 2
+              </h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+              </p>
+            </div>
+            <div class="faq-block">
+              <h4 class="f--ques">
+              Question 3
+              </h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+              </p>
             </div>
           </div>
-          <div class="col-md-8">
-            <h3 class="q--title">
-              "Life Changing <br> Event"
-            </h3>
-            <p class="q--des">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
+          <div class="col-md-6">
+            <div class="faq-block">
+              <h4 class="f--ques">
+              Question 4
+              </h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+              </p>
+            </div>
+            <div class="faq-block">
+              <h4 class="f--ques">
+              Question 5
+              </h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+              </p>
+            </div>
           </div>
-        </div>
-      </div> -->
-    </section>
 
+        </div>
+      </div>
+    </section>
       <?php /*
           while ( have_posts() ) : the_post();
               get_template_part( 'template-parts/content', 'notitle' );

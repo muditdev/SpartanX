@@ -59,7 +59,6 @@ section.f-eventloc{
     }
   }
 }
-
 section.f-benifits{
   padding: 50px;
   .benifits-wrap{
@@ -95,6 +94,28 @@ section.f-testimonials{
       height: 175px;
       border-radius: 50%;
       overflow: hidden;
+    }
+  }
+}
+section.f-wsa{
+  margin: 60px 0;
+}
+section.f-selectcity-cta{
+  background: $color-red;
+  padding: 30px 0 60px;
+  .title{
+    color: $white;
+  }
+}
+section.f-tlf{
+  background: $bg-gray;
+  padding: 50px 0;
+  .sponsors{
+    justify-content: space-around;
+    max-width: 900px;
+    margin: auto;
+    a{
+      max-width: 165px;
     }
   }
 }
@@ -168,5 +189,27 @@ section.f-testimonials{
   &:hover{
     color: $white;
     text-decoration: none;
+  }
+}
+.citySelector{
+  display: flex;
+  justify-content: center;
+  input{
+    height: 70px;
+    outline: 0;
+    font-size: 1.3em;
+    padding: 20px;
+    border: 0;
+  }
+  .btn{
+    height: 70px;
+    font-size: 1.75em;
+    font-weight: 400;
+    padding: 10px 30px;
+    .ico-right{
+      height: 30px;
+      background-size: 50px;
+      margin-top: -5px;
+    }
   }
 }

@@ -46,7 +46,7 @@
   background-size: 70px; }
 
 .title {
-  font-size: 3em;
+  font-size: 2.5em;
   font-family: "Montserrat", sans-serif;
   color: #CF1F2E;
   font-weight: 700; }
@@ -572,6 +572,25 @@ section.f-testimonials {
     border-radius: 50%;
     overflow: hidden; }
 
+section.f-wsa {
+  margin: 60px 0; }
+
+section.f-selectcity-cta {
+  background: #CF1F2E;
+  padding: 30px 0 60px; }
+  section.f-selectcity-cta .title {
+    color: #ffffff; }
+
+section.f-tlf {
+  background: #F0F0F0;
+  padding: 50px 0; }
+  section.f-tlf .sponsors {
+    justify-content: space-around;
+    max-width: 900px;
+    margin: auto; }
+    section.f-tlf .sponsors a {
+      max-width: 165px; }
+
 .subheading {
   font-weight: 700;
   font-size: 1.5em;
@@ -636,6 +655,25 @@ section.f-testimonials {
   .btn-reqseat:hover {
     color: #ffffff;
     text-decoration: none; }
+
+.citySelector {
+  display: flex;
+  justify-content: center; }
+  .citySelector input {
+    height: 70px;
+    outline: 0;
+    font-size: 1.3em;
+    padding: 20px;
+    border: 0; }
+  .citySelector .btn {
+    height: 70px;
+    font-size: 1.75em;
+    font-weight: 400;
+    padding: 10px 30px; }
+    .citySelector .btn .ico-right {
+      height: 30px;
+      background-size: 50px;
+      margin-top: -5px; }
 
 @media only screen and (max-width: 768px) {
   .btn.buy-tickets:before {
